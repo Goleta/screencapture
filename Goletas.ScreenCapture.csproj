@@ -1,0 +1,208 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{95508B9F-2796-4ECF-9505-DEA089AC614E}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>Properties\AssemblyIcon.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Goletas.ScreenCapture</AssemblyName>
+    <AssemblyOriginatorKeyFile>Properties\AssemblyKey.snk</AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>Goletas.ScreenCapture.ApplicationManager</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SignAssembly>true</SignAssembly>
+    <TargetZone>Custom</TargetZone>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>http://localhost/Goletas.ScreenCapture/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationVersion>1.0.0.1</ApplicationVersion>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <ApplicationRevision>1</ApplicationRevision>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Goletas.ScreenCapture.Drawing.Imaging\FileExtensionCollection.cs" />
+    <Compile Include="Goletas.ScreenCapture.Drawing.Imaging\FileTypeCollection.cs" />
+    <Compile Include="Goletas.ScreenCapture\Configuration.cs" />
+    <Compile Include="Goletas.ScreenCapture\ImageArea.cs" />
+    <Compile Include="Goletas.ScreenCapture\JobManager.cs" />
+    <Compile Include="Goletas.Win32\FileView.cs" />
+    <Compile Include="Goletas.Win32\FileDialog.cs" />
+    <Compile Include="Goletas.Win32\ICONINFO.cs" />
+    <Compile Include="Goletas.Win32\FileMapping.cs" />
+    <Compile Include="Goletas.Win32\MONITORINFOEX.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Goletas.Win32\OpenFileDialog.cs" />
+    <Compile Include="Goletas.Win32\OPENFILENAME.cs" />
+    <Compile Include="Goletas.Win32\HH_POPUP.cs" />
+    <Compile Include="Goletas.Win32\MONITORINFO.cs" />
+    <Compile Include="Goletas.Win32\NativeMethods.cs" />
+    <Compile Include="Goletas.ScreenCapture\MessageBox.cs" />
+    <Compile Include="Goletas.Win32\SaveFileDialog.cs" />
+    <Compile Include="Goletas.Win32\WndProc.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Goletas.ScreenCapture\Settings.cs" />
+    <Compile Include="Goletas.ScreenCapture.Drawing.Imaging\BmpFileType.cs" />
+    <Compile Include="Goletas.ScreenCapture.Drawing.Imaging\TiffFileType.cs" />
+    <Compile Include="Goletas.ScreenCapture.Drawing.Imaging\PngFileType.cs" />
+    <Compile Include="Goletas.ScreenCapture.Drawing.Imaging\GifFileType.cs" />
+    <Compile Include="Goletas.ScreenCapture.Drawing.Imaging\JpegFileType.cs" />
+    <Compile Include="Goletas.ScreenCapture\ImageDestinations.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Goletas.ScreenCapture.Drawing.Imaging\FileType.cs" />
+    <Compile Include="Goletas.ScreenCapture\JobInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Goletas.ScreenCapture\ApplicationManager.cs" />
+    <Compile Include="Goletas.Win32\SharedDeviceContext.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Goletas.ScreenCapture\SettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Goletas.Win32\DeviceContext.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Goletas.Win32\IconData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Goletas.Win32\Pen.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Goletas.Win32\POINT.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Goletas.Win32\RECT.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Goletas.Win32\LowLevelMouseProc.cs" />
+    <Compile Include="Goletas.Win32\CURSORINFO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Goletas.Win32\KBDLLHOOKSTRUCT.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Goletas.Win32\Hook.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Goletas.Win32\LowLevelKeyboardProc.cs" />
+    <Compile Include="Goletas.Win32\MSLLHOOKSTRUCT.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Goletas.ScreenCapture\GroupLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Content Include="Properties\AssemblyIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\AssemblyKey.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Goletas.ScreenCapture.resx">
+      <SubType>Designer</SubType>
+      <LastGenOutput>LocalizedResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

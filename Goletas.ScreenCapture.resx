@@ -1,0 +1,418 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 1.3
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">1.3</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1">this is my long string</data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        [base64 mime encoded serialized .NET Framework object]
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        [base64 mime encoded string representing a byte array form of the .NET Framework object]
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used forserialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About.Page">
+    <value>About</value>
+  </data>
+  <data name="AltPrintScreen.Item">
+    <value>Alt + Print Screen</value>
+  </data>
+  <data name="AlwaysOnTop">
+    <value>Keep this window on &amp;top</value>
+  </data>
+  <data name="AlwaysOnTop.Help">
+    <value>Check to enable this window to be on top of all other windows.</value>
+  </data>
+  <data name="App.Group">
+    <value>Application</value>
+  </data>
+  <data name="AppApply.Help">
+    <value>Saves all changes you have made without shutting down the application or closing the dialog box.</value>
+  </data>
+  <data name="AppCancel.Help">
+    <value>Shuts down the application and closes the dialog box without saving any changes you have made.</value>
+  </data>
+  <data name="Apply">
+    <value>&amp;Apply</value>
+  </data>
+  <data name="AppOK.Help">
+    <value>Closes the dialog box, saves any changes you have made and runs the application in the background.</value>
+  </data>
+  <data name="AutoStartup">
+    <value>&amp;Run at user session startup</value>
+  </data>
+  <data name="AutoStartup.Help">
+    <value>Check to run this application automatically at user session startup.</value>
+  </data>
+  <data name="Bmp">
+    <value>Windows Bitmap</value>
+  </data>
+  <data name="Cancel">
+    <value>&amp;Cancel</value>
+  </data>
+  <data name="Cancel.Help">
+    <value>Closes the dialog box without saving any changes you have made.</value>
+  </data>
+  <data name="Clipboard.Item">
+    <value>Clipboard</value>
+  </data>
+  <data name="ClipboardAndFile.Item">
+    <value>Clipboard and File</value>
+  </data>
+  <data name="CtrlPrintScreen.Item">
+    <value>Ctrl + Print Screen</value>
+  </data>
+  <data name="CurrentScreenKey">
+    <value>C&amp;urrent screen:</value>
+  </data>
+  <data name="CurrentScreenKey.Help">
+    <value>Select a key to take a snapshot of the screen containing the mouse cursor.</value>
+  </data>
+  <data name="Destination.Page">
+    <value>Destination</value>
+  </data>
+  <data name="DirectoryNotExist">
+    <value>The selected working directory does not exist.</value>
+  </data>
+  <data name="Exe">
+    <value>Executable Files</value>
+  </data>
+  <data name="ExternalApp.Cue">
+    <value>Type the application path here.</value>
+  </data>
+  <data name="ExternalApp.Help">
+    <value>Specify a path to the application that will open the captured image.</value>
+  </data>
+  <data name="ExternalApp.Title">
+    <value>Screen Capture - External Application</value>
+  </data>
+  <data name="ExternalAppNotExecuted">
+    <value>The external application could not be started because the path
+was not found, the user does not have the rights to use the file,
+or the file is not a valid Win32 application.</value>
+  </data>
+  <data name="ExternalAppNotFound">
+    <value>The external application file could not be found.</value>
+  </data>
+  <data name="File.Group">
+    <value>File Output</value>
+  </data>
+  <data name="File.Item">
+    <value>File</value>
+  </data>
+  <data name="FileFormat.Group">
+    <value>File &amp;Format</value>
+  </data>
+  <data name="FileFormat.Help">
+    <value>Change the file format for the captured image.</value>
+  </data>
+  <data name="FileName">
+    <value>&amp;Filename:</value>
+  </data>
+  <data name="FileName.Cue">
+    <value>Type the preferred filename here.</value>
+  </data>
+  <data name="FileName.Help">
+    <value>Choose a filename for the captured image. The filename cannot start or
+end with a period or space or contain any of the following characters:
+\ / : * ? " &lt; &gt; |
+
+Use the following shortcuts to make a pattern for the filename.
+
+&lt;counter&gt;
+An integer that starts from 1 and is reset with every application restart.
+
+&lt;yyyy&gt;, &lt;MM&gt;, &lt;dd&gt;, &lt;hh&gt;, &lt;mm&gt;, &lt;ss&gt;
+The shortcuts of the year, month, day, hour, minute and second from
+when the screenshot was taken.</value>
+  </data>
+  <data name="FileType.Help">
+    <value>Change the file format settings.</value>
+  </data>
+  <data name="ForegroundWindowKey">
+    <value>Foreground &amp;window:</value>
+  </data>
+  <data name="ForegroundWindowKey.Help">
+    <value>Select a key to take a snapshot of the foreground window.</value>
+  </data>
+  <data name="General.Page">
+    <value>General</value>
+  </data>
+  <data name="Gif">
+    <value>Graphics Interchange Format</value>
+  </data>
+  <data name="High.Item">
+    <value>High</value>
+  </data>
+  <data name="Highest.Item">
+    <value>Highest</value>
+  </data>
+  <data name="HotKeys.Group">
+    <value>Shortcut Keys</value>
+  </data>
+  <data name="HowToUse">
+    <value>Press the OK button to switch to background mode. To bring this window back use the "show this window" key configured in the Preferences tab.
+
+To capture a window, press and hold the Print Screen key while moving the mouse over the area to capture. The selected area will be marked with the red rectangle. Release the Print Screen key to complete the operation.</value>
+  </data>
+  <data name="Image.Page">
+    <value>Image</value>
+  </data>
+  <data name="ImageComposition.Group">
+    <value>Image Composition</value>
+  </data>
+  <data name="ImageDestination.Group">
+    <value>I&amp;mage Destination</value>
+  </data>
+  <data name="ImageDestination.Help">
+    <value>Specify what to do with the captured image.</value>
+  </data>
+  <data name="ImageQuality.Group">
+    <value>Image &amp;Quality</value>
+  </data>
+  <data name="ImageQuality.Help">
+    <value>Change the quality level of the captured image. The better the quality, the larger the image file size tends to be.</value>
+  </data>
+  <data name="ImageToClipboardFailed">
+    <value>The captured image could not be saved to the clipboard.
+
+This typically occurs when the clipboard is being used
+by another application.</value>
+  </data>
+  <data name="IncludeCursor">
+    <value>Include &amp;mouse cursor</value>
+  </data>
+  <data name="IncludeCursor.Help">
+    <value>Check to enable capture of the mouse pointer.</value>
+  </data>
+  <data name="InvalidDirectoryName">
+    <value>The specified working directory is either malformed
+or contains keywords reserved by the system.</value>
+  </data>
+  <data name="InvalidExecutablePath">
+    <value>The specified path to the executable is either malformed
+or contains keywords reserved by the system.</value>
+  </data>
+  <data name="InvalidFileName">
+    <value>The specified filename is either malformed
+or a keyword reserved by the system.</value>
+  </data>
+  <data name="Jpg">
+    <value>JPEG File Interchange Format</value>
+  </data>
+  <data name="LegalInfo">
+    <value>Copyright © 2005 - {0} Maksim Goleta. All rights reserved.
+
+This software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and non-infringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.
+
+Warning: This computer program is protected by copyright law and international treaties. Unauthorized reproduction or distribution of this program, or any portion of it, may result in severe civil and criminal penalties, and will be prosecuted to the maximum extent possible under the law.</value>
+  </data>
+  <data name="Low.Item">
+    <value>Low</value>
+  </data>
+  <data name="Lowest.Item">
+    <value>Lowest</value>
+  </data>
+  <data name="NoFullTrust">
+    <value>The current security policy prevents this application from running.
+
+This usually happens when the application is being launched
+directly from the Internet or network share.</value>
+  </data>
+  <data name="Normal.Item">
+    <value>Normal</value>
+  </data>
+  <data name="OK">
+    <value>&amp;OK</value>
+  </data>
+  <data name="OK.Help">
+    <value>Closes the dialog box and saves any changes you have made.</value>
+  </data>
+  <data name="OsNotFullySupported">
+    <value>This application was not designed for the current platform. Some features may not behave as expected.</value>
+  </data>
+  <data name="OsNotSupported">
+    <value>Goletas Screen Capture is not designed to run on the
+current operating system. The application will now exit.</value>
+  </data>
+  <data name="Png">
+    <value>Portable Network Graphics</value>
+  </data>
+  <data name="Preferences.Page">
+    <value>Preferences</value>
+  </data>
+  <data name="PrintScreen.Item">
+    <value>Print Screen</value>
+  </data>
+  <data name="ProductFullName">
+    <value>Goletas Screen Capture, version {0}</value>
+  </data>
+  <data name="ProductName">
+    <value>Screen Capture</value>
+  </data>
+  <data name="RemoveApp">
+    <value>To completely uninstall this application, remove your settings and exit the program.</value>
+  </data>
+  <data name="RemoveApp.Dialog">
+    <value>You are about to remove all application settings.
+Do you want to continue?</value>
+  </data>
+  <data name="RemoveApp.Help">
+    <value>Removes all application settings for the current user. You have to manually delete the executable if you no longer wish to keep this application.</value>
+  </data>
+  <data name="RemoveApp.Length">
+    <value>6</value>
+  </data>
+  <data name="RemoveApp.Start">
+    <value>42</value>
+  </data>
+  <data name="SaveImageAs">
+    <value>Screen Capture - Save As</value>
+  </data>
+  <data name="Select">
+    <value>...</value>
+  </data>
+  <data name="SelectExternalApp.Help">
+    <value>Select the external application that opens the captured image.</value>
+  </data>
+  <data name="SelectWorkingDirectory.Help">
+    <value>Select a directory where the image files will be saved.</value>
+  </data>
+  <data name="SettingsKey">
+    <value>&amp;Show this window:</value>
+  </data>
+  <data name="SettingsKey.Help">
+    <value>Select a key to show this window or bring it to top.</value>
+  </data>
+  <data name="ShiftPrintScreen.Item">
+    <value>Shift + Print Screen</value>
+  </data>
+  <data name="Tif">
+    <value>Tagged Image File Format</value>
+  </data>
+  <data name="UnhandledException">
+    <value>An unexpected error has occurred and the application will now close.</value>
+  </data>
+  <data name="UnhandledExceptionEx">
+    <value>An unexpected error has occurred and the application will now close.
+
+The crash log was saved on your Desktop with the following name:
+{0}</value>
+  </data>
+  <data name="UseExternalApp">
+    <value>Open &amp;with application:</value>
+  </data>
+  <data name="UseExternalApp.Help">
+    <value>Check to open the captured image with the specified editor.</value>
+  </data>
+  <data name="UseFileOverwrite">
+    <value>Overwrite file if &amp;exists</value>
+  </data>
+  <data name="UseFileOverwrite.Help">
+    <value>Check this option to automatically overwrite a file with the same filename or leave unchecked for the filename prompt. Files with the Read Only or System attributes will not be overwritten.</value>
+  </data>
+  <data name="VirtualScreenKey">
+    <value>All scree&amp;ns:</value>
+  </data>
+  <data name="VirtualScreenKey.Help">
+    <value>Select a key to take a snapshot of the entire virtual screen, that is, all screens.</value>
+  </data>
+  <data name="WorkingDirectory">
+    <value>Working &amp;directory:</value>
+  </data>
+  <data name="WorkingDirectory.Cue">
+    <value>Type the directory here.</value>
+  </data>
+  <data name="WorkingDirectory.Description">
+    <value>Select the directory where the captured image files will be saved.</value>
+  </data>
+  <data name="WorkingDirectory.Help">
+    <value>Specify the name of an existing directory where the image files will be saved.</value>
+  </data>
+</root>
